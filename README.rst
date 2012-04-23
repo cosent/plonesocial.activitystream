@@ -22,11 +22,6 @@ the activitystream portlet.
 You can re-use the viewlet, or the portlet, as you see fit using
 ZCML overrides. YMMV.
 
-bugs
-----
-
-- setting a real discussion reply triggers 3 status updates
-
 todo
 ----
 
@@ -56,8 +51,6 @@ plonesocial.like
 
 `plonesocial.buildout`_
  Developer buildout. Not a Python package. Intended for Plonesocial developers only.
-
-This is a work in progress and not suitable for general release yet.
 
 .. _plonesocial suite: https://github.com/cosent/plonesocial.suite
 .. _plonesocial.microblog: https://github.com/cosent/plonesocial.microblog
