@@ -15,9 +15,11 @@ you should install `plonesocial.suite`_ instead.
 plonesocial.activitystream
 ==========================
 
-Plonesocial.activitystream registers an IAboveContentTitle viewlet,
-in which a portletmanager lives where end-users can configure
-the activitystream portlet.
+Plonesocial.activitystream provides an "Activity Stream" view for the SiteRoot.
+
+The Activity Stream view renders a viewlet in AboveContent in which a portletmanager lives in which you can add an "Activity Stream" portlet (and also a "Microblog" portlet if you installed plonesocial.microblog.
+
+This may look like a complex construct but it provides integrators with easy customization flex points, and it provides content managers with maximal control over what is rendered where, and in which sequence. Moreover by using a portlet for rendering, content managers can set various rendering options.
 
 You can re-use the viewlet, or the portlet, as you see fit using
 ZCML overrides. YMMV.
