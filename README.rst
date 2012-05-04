@@ -24,10 +24,10 @@ This may look like a complex construct but it provides integrators with easy cus
 You can re-use the viewlet, or the portlet, as you see fit using
 ZCML overrides. YMMV.
 
-todo
-----
+status
+------
 
-- add filter settings on portlet to allow (status updates | discussion replies | content modifications) filtering
+Alpha. This package is under active development and changes in backward-incompatible and forward-incompatible ways.
 
 
 Plonesocial
