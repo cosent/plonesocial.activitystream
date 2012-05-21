@@ -1,8 +1,58 @@
 Changelog
 =========
 
+
+0.3 (2012-05-21)
+----------------
+
+* update changelog, readme [gyst]
+* use defined accesscontrol, fix portletmanager rename
+* simplify package layout [gyst]
+* extract activity rendering into contentprovider/adapter [gyst]
+* activity type filters [gyst]
+* adapterize activity stream data structures [gyst]
+* tune i18n [gyst]
+* switch from annotationstorage to a utility [gyst]
+* move separate ZODB shard documentation to plonesocial.microblog [gyst]
+* clean up view logic [gyst]
+* credit Maurits [gyst]
+* refactored storage backend [gyst]
+* extract content model to plonesocial.microblog [gyst]
+* enable fake data insertion / fix date bug [gyst]
+* Added Poi response-like Activities. [maurits]
+* Some sample code for using an extra ZODB. [maurits]
+* bump version [gyst]
+
+0.2 (2012-05-04)
+----------------
+
+* update doc [gyst]
+* rename primary view in anticipation of other views in the future [gyst]
+* make portlet automatically assignable [gyst]
+* get rid of src dir indirection [gyst]
+* delegate commentActions translations to p.a.d. [gyst]
+* provide i18n for nl [gyst]
+* sort on effective; fix date bug; tune styling [gyst]
+* force inner aquisition to be safe [gyst]
+* pixeltune [gyst]
+* tune css [gyst]
+* restrict activitystream viewlet to activitystream view, and update doc [gyst]
+* backport manageportlets link [gyst]
+* Revert "extracted standalone stream view to plonesocial.suite" [gyst]
+* sort on created not modified [gyst]
+* provide "compact" rendering option [gyst]
+* tune doc [gyst]
+* update documentation [gyst]
+* add basic CSS [gyst]
+* prototype implementation of activitystream [gyst]
+* rename portletmanager viewlet [gyst]
+* provide activitystream portlet [gyst]
+* extracted standalone stream view to plonesocial.suite [gyst]
+* wrap the portletmanager within the viewlet, register on SiteRoot only [gyst]
+* add portletmanager [gyst]
+* (empty) activity stream view for homepage [gyst]
+
 0.1dev (unreleased)
 -------------------
 
-- Package created using zopeskel
-  [Guido Stevens]
+* initial checkin from ZopeSkel [gyst]
