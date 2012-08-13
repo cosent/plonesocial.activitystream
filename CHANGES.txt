@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.3.3 (2012-08-13)
+------------------
+
+* arghh. Date is not a DateTime. Sort on max(effective, modified) instead. Refs #1. [gyst]
+
 0.3.2 (2012-08-13)
 ------------------
 
