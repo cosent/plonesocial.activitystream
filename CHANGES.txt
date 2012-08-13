@@ -1,16 +1,21 @@
 Changelog
 =========
 
-0.3.1 (2012-05-29)
----------------------
+0.3.2 (2012-08-13)
+------------------
 
-* fix i18n regression
+* sort on Date, fixes #1: effective 1-1-1000 sorting bug [gyst]
+
+0.3.1 (2012-05-29)
+------------------
+
+* fix i18n regression [gyst]
 
 0.3 (2012-05-21)
 ----------------
 
 * update changelog, readme [gyst]
-* use defined accesscontrol, fix portletmanager rename
+* use defined accesscontrol, fix portletmanager rename [gyst]
 * simplify package layout [gyst]
 * extract activity rendering into contentprovider/adapter [gyst]
 * activity type filters [gyst]
