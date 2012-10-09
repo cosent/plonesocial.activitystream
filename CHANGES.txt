@@ -1,6 +1,31 @@
 Changelog
 =========
 
+0.4 (2012-10-09)
+----------------
+
+* update docs [gyst]
+* fix dependency [gyst]
+* reindent for better pep8 [gyst]
+* more styling [gyst]
+* catch unresolvable brains [gyst]
+* tune styling [gyst]
+* document mentions todo [gyst]
+* integrate microblog status form into @@stream [gyst]
+* refactor and protect against errors on microblog uninstall [gyst]
+* provide tag and userid filters API on stream_provider [gyst]
+* provide consistency with plonesocial.network @@profile [gyst]
+* implement tag view as traversal, not getarg [gyst]
+* GS name [gyst]
+* extract activity stream rendering to a reusable provider [gyst]
+* provide standalone @@stream view and @@stream_provider (noop for now) [gyst]
+* rename activity_contentprovider -> activity_provider [gyst]
+* encapsulate the portlet-manager-viewlet based activitystream_portal view [gyst]
+* expose and filter on hashtags [gyst]
+* show content tags [gyst]
+* bump version [gyst]
+
+
 0.3.3 (2012-08-13)
 ------------------
 
