@@ -20,7 +20,7 @@ The Activity Portal view renders a portletmanager viewlet in which you can add a
 This may look like a complex construct but it provides integrators with easy customization flex points, and it provides content managers with maximal control over what is rendered where, and in which sequence. Moreover by using a portlet for rendering, content managers can set various rendering options.
 You can re-use the viewlet, or the portlet, as you see fit using ZCML overrides. YMMV.
 
-The core rendering component, which is used by all views, is the ``activitystream_provider`` content provider.
+The core rendering component, which is used by all views, is the ``stream_provider`` content provider.
 Extracting the display logic to a separate content provider promotes re-use.
 ``activitystream_provider`` fetches `plonesocial.microblog`_ updates, if microblog is installed.
 It merges those with content creations and plone.app.discussion replies fetched from ZCatalog.
@@ -31,6 +31,11 @@ or `plonesocial.network`_. Instead, it probes if those components are installed 
 Depending on the availability of those other plonesocial components, plonesocial.activitystream
 adapts its behavior.
 
+bugs
+----
+
+'My network updates' does not filter discussion updates correctly. 
+This is caused by an upstream ``plone.app.discussion`` bug that indexes fullname instead of username as Creator on DiscussionItems.
 
 TODO
 ----
