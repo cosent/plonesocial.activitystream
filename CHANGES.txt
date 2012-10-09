@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.4.1 (2012-10-09)
+------------------
+
+* merge: enable plonesocial.network filters on @@stream [gyst]
+
 0.4 (2012-10-09)
 ----------------
 
