@@ -35,8 +35,6 @@ setup(
     install_requires=[
         'setuptools',
         'Plone',
-        'plonesocial.microblog',
-        'plonesocial.network',
         ],
     extras_require={'test': ['plone.app.testing']},
     entry_points="""
