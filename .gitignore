@@ -3,4 +3,10 @@
 *.pyc
 *.pyo
 *.mo
+.installed.cfg
 dist/
+bin/
+develop-eggs/
+include/
+lib/
+parts/
