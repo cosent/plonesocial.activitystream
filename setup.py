@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '0.4.1'
+version = '0.5dev'
 
 long_description = (
     open('README.rst').read()
@@ -35,8 +35,6 @@ setup(
     install_requires=[
         'setuptools',
         'Plone',
-        'plonesocial.microblog',
-        'plonesocial.network',
         ],
     extras_require={'test': ['plone.app.testing']},
     entry_points="""

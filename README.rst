@@ -1,3 +1,7 @@
+.. image:: https://secure.travis-ci.org/cosent/plonesocial.activitystream.png
+    :target: http://travis-ci.org/cosent/plonesocial.activitystream
+
+
 Introduction
 ============
 
@@ -35,13 +39,12 @@ bugs
 ----
 
 'My network updates' does not filter discussion updates correctly. 
-This is caused by an upstream ``plone.app.discussion`` bug that indexes fullname instead of username as Creator on DiscussionItems.
+This is fixed upstream in ``plone.app.discussion``, waiting for release.
 
-TODO
-----
+Roadmap
+-------
 
-Link @username mentions for integration with `plonesocial.network`_ as soon as `plonesocial.microblog`_ supports @mentions indexes.
-
+An extensive roadmap_ for the plonesocial suite is available on github.
 
 .. _plonesocial suite: https://github.com/cosent/plonesocial.suite
 .. _plonesocial.suite: https://github.com/cosent/plonesocial.suite
@@ -49,4 +52,4 @@ Link @username mentions for integration with `plonesocial.network`_ as soon as `
 .. _plonesocial.activitystream: https://github.com/cosent/plonesocial.activitystream
 .. _plonesocial.network: https://github.com/cosent/plonesocial.network
 .. _plonesocial.buildout: https://github.com/cosent/plonesocial.buildout
-
+.. _roadmap: https://github.com/cosent/plonesocial.suite/wiki
