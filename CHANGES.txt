@@ -4,6 +4,10 @@ Changelog
 Unreleased
 ----------
 
+* If the stream is displayed in a microblog context,
+  filter activity stream on activities within this context.
+  [tdesvenain]
+
 * Plone 4.3 compatibility [tdesvenain]
 
 0.4.2 (2012-11-26)
