@@ -1,14 +1,19 @@
 Changelog
 =========
 
-Unreleased
-----------
+0.4.4 (Unreleased)
+------------------
 
 * If the stream is displayed in a microblog context,
   filter activity stream on activities within this context.
   [tdesvenain]
 
+0.4.3 (2013-04-29)
+------------------
+
+* tag view should not filter on network [gyst]
 * Plone 4.3 compatibility [tdesvenain]
+* Dutch translation [maartenkling]
 
 0.4.2 (2012-11-26)
 ------------------
