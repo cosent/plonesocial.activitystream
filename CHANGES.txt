@@ -1,6 +1,11 @@
 Changelog
 =========
 
+(unreleased)
+------------
+
+* don't traceback on missing tag spec [gyst]
+
 0.4.3 (2013-04-29)
 ------------------
 
