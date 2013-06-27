@@ -8,6 +8,8 @@ Changelog
   filter activity stream on activities within this context.
   [tdesvenain]
 
+* don't traceback on missing tag spec [gyst]
+
 0.4.3 (2013-04-29)
 ------------------
 

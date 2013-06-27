@@ -16,9 +16,8 @@ long_description = (
 setup(
     name='plonesocial.activitystream',
     version=version,
-    description=("This package provides views for "
-                 "plonesocial.microblog status updates and other "
-                 "user activities in Plone"),
+    description=("This package provides views for plonesocial.microblog status"
+                 " updates and other user activities in Plone"),
     long_description=long_description,
     # Get more strings from
     # http://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -41,5 +40,4 @@ setup(
       # -*- Entry points: -*-
           [z3c.autoinclude.plugin]
           target = plone
-      """,
-)
+      """, )
