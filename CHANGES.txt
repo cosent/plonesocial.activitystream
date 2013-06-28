@@ -1,8 +1,10 @@
 Changelog
 =========
 
-0.4.4 (Unreleased)
-------------------
+0.5 (Unreleased)
+-----------------
+
+* Filter on users OR microblog context, not both [gyst]
 
 * French translation.
   [thomasdesvenain]
