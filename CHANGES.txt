@@ -4,9 +4,12 @@ Changelog
 0.4.4 (Unreleased)
 ------------------
 
+* French translation.
+  [thomasdesvenain]
+
 * If the stream is displayed in a microblog context,
   filter activity stream on activities within this context.
-  [tdesvenain]
+  [thomasdesvenain]
 
 * don't traceback on missing tag spec [gyst]
 
@@ -14,7 +17,7 @@ Changelog
 ------------------
 
 * tag view should not filter on network [gyst]
-* Plone 4.3 compatibility [tdesvenain]
+* Plone 4.3 compatibility [thomasdesvenain]
 * Dutch translation [maartenkling]
 
 0.4.2 (2012-11-26)
