@@ -1,23 +1,33 @@
 Changelog
 =========
 
-0.5 (Unreleased)
------------------
+0.5.0 (2013-07-04)
+------------------
 
-* Filter on users OR microblog context, not both [gyst]
-
-* French translation.
-  [thomasdesvenain]
-
-* If the stream is displayed in a microblog context,
-  filter activity stream on activities within this context.
-  [thomasdesvenain]
-
-* don't traceback on missing tag spec [gyst]
+* update docs [Guido A.J. Stevens]
+* tag urls should be global [Guido A.J. Stevens]
+* finish IMicroblogContext implementation [Guido A.J. Stevens]
+* make active tab check more robust [Guido A.J. Stevens]
+* refactor Explore / My network traversal - default to Explore even if plonesocial.network is installed - removes inconsistency between configs - makes following home portal link to @@stream actually show a stream when coldstarting; [Guido A.J. Stevens]
+* adapt navigation to presence of plonesocial.network [Guido A.J. Stevens]
+* support highlighting of current view in navigation [Guido A.J. Stevens]
+* consolidate optional imports into integration [Guido A.J. Stevens]
+* move navigationbar from plonesocial.suite to plonesocial.activitystream [Guido A.J. Stevens]
+* enable stream view on local microblog contexts [Guido A.J. Stevens]
+* filter on users OR microblog context, not both [Guido Stevens]
+* pep8 [Guido Stevens]
+* fix message folder [tdesvenain]
+* french translation [tdesvenain]
+* symlink is back [tdesvenain]
+* filtering on microblog context works with new API [tdesvenain]
+* update changelog [Guido Stevens]
+* Don't traceback on missing tag spec, fixes plonesocial.microblog#8 [Guido Stevens]
+* If the stream is displayed in a microblog context, filter activity stream on activities within this context.   [tdesvenain]
 
 0.4.3 (2013-04-29)
 ------------------
 
+* pep8 [Guido Stevens]
 * tag view should not filter on network [gyst]
 * Plone 4.3 compatibility [thomasdesvenain]
 * Dutch translation [maartenkling]

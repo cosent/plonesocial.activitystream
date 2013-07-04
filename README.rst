@@ -11,13 +11,25 @@ This package, plonesocial.activitystream, provides a building block for Plone in
 
 If you're an end-user looking for a pre-integrated solution, you should install `plonesocial.suite`_ instead.
 
+Credits
+-------
+
+|Cosent|_
+
+This package is maintained by Cosent_.
+
+.. _Cosent: http://cosent.nl
+.. |Cosent| image:: http://cosent.nl/images/logo-external.png 
+                    :alt: Cosent
+
 
 plonesocial.activitystream
 ==========================
 
 Plonesocial.activitystream provides a standalone ``@@stream`` view on the SiteRoot.
-If you have installed `plonesocial.network`_ as well, ``@@stream`` will show only updates of people you're following.
-If you have not installed `plonesocial.network`_, or if you hit ``@@stream/explore``, it will show the unfiltered full site activity feed.
+If you have installed `plonesocial.network`_ as well, and hit ``@@stream/network`` it will show only updates of people you're following.
+
+A navigation bar is provided which detects the presence of `plonesocial.network`_, as well as local workspaces that provide a local microblog, and displays nagivation options suitable for the context.
 
 Plonesocial.activitystream also provides an "Activity Portal" view for the SiteRoot.
 The Activity Portal view renders a portletmanager viewlet in which you can add an "Activity Stream" portlet (and also a "Microblog" portlet if you installed `plonesocial.microblog`_.
@@ -35,11 +47,8 @@ or `plonesocial.network`_. Instead, it probes if those components are installed 
 Depending on the availability of those other plonesocial components, plonesocial.activitystream
 adapts its behavior.
 
-bugs
-----
+Plonesocial.activitystream looks nicer if you also install `plonesocial.theme`_.
 
-'My network updates' does not filter discussion updates correctly. 
-This is fixed upstream in ``plone.app.discussion``, waiting for release.
 
 Roadmap
 -------
@@ -51,5 +60,6 @@ An extensive roadmap_ for the plonesocial suite is available on github.
 .. _plonesocial.microblog: https://github.com/cosent/plonesocial.microblog
 .. _plonesocial.activitystream: https://github.com/cosent/plonesocial.activitystream
 .. _plonesocial.network: https://github.com/cosent/plonesocial.network
+.. _plonesocial.theme: https://github.com/cosent/plonesocial.theme
 .. _plonesocial.buildout: https://github.com/cosent/plonesocial.buildout
 .. _roadmap: https://github.com/cosent/plonesocial.suite/wiki
