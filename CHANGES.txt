@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.5.2 (2013-07-08)
+------------------
+
+* bump version, 0.5.0/0.5.1 sequence got mixed up by pypi upload problems [gyst]
+
 0.5.0 (2013-07-04)
 ------------------
 
