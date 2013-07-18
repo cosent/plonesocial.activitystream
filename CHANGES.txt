@@ -1,6 +1,10 @@
 Changelog
 =========
 
+* Activity stream links check we use view action for content
+  to avoid direct download.
+  [thomasdesvenain]
+
 0.4.4 (Unreleased)
 ------------------
 
