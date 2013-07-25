@@ -1,6 +1,9 @@
 Changelog
 =========
 
+* Fixed activity stream rendering when a user has been removed
+  [thomasdesvenain]
+
 * Activity stream links check we use view action for content
   to avoid direct download.
   [thomasdesvenain]
