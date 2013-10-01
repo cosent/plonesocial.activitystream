@@ -1,6 +1,31 @@
 Changelog
 =========
 
+0.5.5 (2013-07-31)
+------------------
+
+* fix navigation template base url [gyst]
+
+0.5.4 (2013-07-31)
+------------------
+
+* fix invalid zpt view action logic [gyst]
+
+0.5.3 (2013-07-31)
+------------------
+
+* Fixed activity stream rendering when a user has been removed
+  [thomasdesvenain]
+
+* Activity stream links check we use view action for content
+  to avoid direct download.
+  [thomasdesvenain]
+
+0.5.2 (2013-07-08)
+------------------
+
+* bump version, 0.5.0/0.5.1 sequence got mixed up by pypi upload problems [gyst]
+
 0.5.0 (2013-07-04)
 ------------------
 
