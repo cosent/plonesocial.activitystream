@@ -6,3 +6,5 @@ Contributors
 * Leonardo J. Caballero G.
 * Thomas Desvenain
 * Hector Velarde
+* Maarten Kling
+* Roel Bruggink
