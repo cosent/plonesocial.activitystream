@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.5.6 (unreleased)
+0.5.6 (2014-03-11)
 ------------------
 
 * Bind browserviews to INavigationRoot instead of ISiteRoot [gyst]
