@@ -1,6 +1,17 @@
 Changelog
 =========
 
+0.5.7 (unreleased)
+------------------
+
+* View method ``activitystream_portal`` is now removed from Folder content
+  type at uninstall time.
+  [hvelarde]
+
+* Install/uninstall test coverage was increased.
+  [hvelarde]
+
+
 0.5.6 (2014-03-11)
 ------------------
 
