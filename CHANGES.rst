@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.7.0 (unreleased)
+------------------
+
+* "Berlin" sprint frontend rewrite based on patternslib 
+
 0.5.7 (unreleased)
 ------------------
 
