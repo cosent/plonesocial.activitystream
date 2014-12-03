@@ -4,6 +4,7 @@ Changelog
 0.7.0 (unreleased)
 ------------------
 
+* Portlets can work on Plone4 and on Plone5
 * Rename @@profile -> @@author (Assembla #228)
   [ale-rt]
 * "Berlin" sprint frontend rewrite based on patternslib
