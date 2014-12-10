@@ -57,6 +57,7 @@ setup(
         'test': [
             'plone.api',
             'plone.app.testing',
+            'plone.app.contenttypes[test]',
             'plone.browserlayer',
             'unittest2',
         ],
