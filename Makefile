@@ -8,8 +8,8 @@ test:
 	bin/flake8 plonesocial
 
 bin/buildout: bin/python
-	bin/easy_install zc.buildout==1.7.1
-	bin/easy_install setuptools==0.6c11
+	bin/easy_install zc.buildout==2.2.1
+	bin/easy_install setuptools==5.8
 
 bin/python:
 	virtualenv --clear --no-site-packages --distribute .
