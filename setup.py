@@ -41,6 +41,7 @@ setup(
         'plonesocial.core',
         'plone.app.layout',
         'plone.app.portlets',
+        'plone.tiles',
         'plone.portlets',
         'Products.CMFCore',
         'Products.CMFPlone >=4.2',
