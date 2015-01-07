@@ -62,10 +62,10 @@ Robot tests for Plone Social and Plone Intranet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Social%20Suite%20Master
-    :target: http://jenkins.ploneintranet.net/job/Plone%20Social%20Suite%20Master/badge/
+   :target: http://jenkins.ploneintranet.net/job/Plone%20Social%20Suite%20Master/badge/
 
 .. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Suite%20Master
-    :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Suite%20Master/badge/
+   :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Suite%20Master/badge/
 
 
 
