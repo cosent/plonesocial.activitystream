@@ -5,6 +5,7 @@ Changelog
 ------------------
 
 * Portlets can work on Plone4 and on Plone5
+* The stream view has been moved to plonesocial.core
 * Rename @@profile -> @@author (Assembla #228)
   [ale-rt]
 * "Berlin" sprint frontend rewrite based on patternslib
