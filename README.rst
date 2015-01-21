@@ -24,7 +24,8 @@ This package is maintained by Cosent_.
 plonesocial.activitystream
 ==========================
 
-Plonesocial.activitystream provides a standalone ``@@stream`` view on the SiteRoot.
+Plonesocial.activitystream uses the view ``@@stream`` view (provided by plonesocial.core) on the SiteRoot.
+
 If you have installed `plonesocial.network`_ as well, and hit ``@@stream/network`` it will show only updates of people you're following.
 
 A navigation bar is provided which detects the presence of `plonesocial.network`_, as well as local workspaces that provide a local microblog, and displays nagivation options suitable for the context.
