@@ -39,6 +39,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'plonesocial.core',
+        'plone.app.blocks',
         'plone.app.layout',
         'plone.app.portlets',
         'plone.tiles',
