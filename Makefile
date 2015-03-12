@@ -4,8 +4,8 @@ buildout: bin/buildout buildout-cache/downloads
 	bin/buildout -c buildout.cfg -N -t 3
 
 test:
-	bin/test -s plonesocial.activitystream
-	bin/flake8 plonesocial
+	bin/test -s ploneintranet.activitystream
+	bin/flake8 ploneintranet
 
 bin/buildout: bin/python
 	bin/easy_install zc.buildout==2.2.1

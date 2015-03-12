@@ -11,9 +11,9 @@ long_description = (
     + '\n')
 
 setup(
-    name='plonesocial.activitystream',
+    name='ploneintranet.activitystream',
     version=version,
-    description=("This package provides views for plonesocial.microblog status"
+    description=("This package provides views for ploneintranet.microblog status"
                  " updates and other user activities in Plone"),
     long_description=long_description,
     classifiers=[
@@ -32,13 +32,13 @@ setup(
     keywords='plone socbiz social microblog activity stream',
     author='Guido Stevens',
     author_email='guido.stevens@cosent.net',
-    url='http://github.com/cosent/plonesocial.activitystream',
+    url='http://github.com/cosent/ploneintranet.activitystream',
     packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=['plonesocial'],
+    namespace_packages=['ploneintranet'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'plonesocial.core',
+        'ploneintranet.core',
         'plone.app.blocks',
         'plone.app.layout',
         'plone.app.portlets',

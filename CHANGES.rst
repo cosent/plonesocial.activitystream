@@ -5,7 +5,7 @@ Changelog
 ------------------
 
 * Portlets can work on Plone4 and on Plone5
-* The stream view has been moved to plonesocial.core
+* The stream view has been moved to ploneintranet.core
 * Rename @@profile -> @@author (Assembla #228)
   [ale-rt]
 * "Berlin" sprint frontend rewrite based on patternslib
@@ -65,11 +65,11 @@ Changelog
 * tag urls should be global [Guido A.J. Stevens]
 * finish IMicroblogContext implementation [Guido A.J. Stevens]
 * make active tab check more robust [Guido A.J. Stevens]
-* refactor Explore / My network traversal - default to Explore even if plonesocial.network is installed - removes inconsistency between configs - makes following home portal link to @@stream actually show a stream when coldstarting; [Guido A.J. Stevens]
-* adapt navigation to presence of plonesocial.network [Guido A.J. Stevens]
+* refactor Explore / My network traversal - default to Explore even if ploneintranet.network is installed - removes inconsistency between configs - makes following home portal link to @@stream actually show a stream when coldstarting; [Guido A.J. Stevens]
+* adapt navigation to presence of ploneintranet.network [Guido A.J. Stevens]
 * support highlighting of current view in navigation [Guido A.J. Stevens]
 * consolidate optional imports into integration [Guido A.J. Stevens]
-* move navigationbar from plonesocial.suite to plonesocial.activitystream [Guido A.J. Stevens]
+* move navigationbar from ploneintranet.suite to ploneintranet.activitystream [Guido A.J. Stevens]
 * enable stream view on local microblog contexts [Guido A.J. Stevens]
 * filter on users OR microblog context, not both [Guido Stevens]
 * pep8 [Guido Stevens]
@@ -78,7 +78,7 @@ Changelog
 * symlink is back [tdesvenain]
 * filtering on microblog context works with new API [tdesvenain]
 * update changelog [Guido Stevens]
-* Don't traceback on missing tag spec, fixes plonesocial.microblog#8 [Guido Stevens]
+* Don't traceback on missing tag spec, fixes ploneintranet.microblog#8 [Guido Stevens]
 * If the stream is displayed in a microblog context, filter activity stream on activities within this context.   [tdesvenain]
 
 0.4.3 (2013-04-29)
@@ -121,7 +121,7 @@ Changelog
 0.4.1 (2012-10-09)
 ------------------
 
-* merge: enable plonesocial.network filters on @@stream [gyst]
+* merge: enable ploneintranet.network filters on @@stream [gyst]
 
 0.4 (2012-10-09)
 ----------------
@@ -136,7 +136,7 @@ Changelog
 * integrate microblog status form into @@stream [gyst]
 * refactor and protect against errors on microblog uninstall [gyst]
 * provide tag and userid filters API on stream_provider [gyst]
-* provide consistency with plonesocial.network @@profile [gyst]
+* provide consistency with ploneintranet.network @@profile [gyst]
 * implement tag view as traversal, not getarg [gyst]
 * GS name [gyst]
 * extract activity stream rendering to a reusable provider [gyst]
@@ -174,11 +174,11 @@ Changelog
 * adapterize activity stream data structures [gyst]
 * tune i18n [gyst]
 * switch from annotationstorage to a utility [gyst]
-* move separate ZODB shard documentation to plonesocial.microblog [gyst]
+* move separate ZODB shard documentation to ploneintranet.microblog [gyst]
 * clean up view logic [gyst]
 * credit Maurits [gyst]
 * refactored storage backend [gyst]
-* extract content model to plonesocial.microblog [gyst]
+* extract content model to ploneintranet.microblog [gyst]
 * enable fake data insertion / fix date bug [gyst]
 * Added Poi response-like Activities. [maurits]
 * Some sample code for using an extra ZODB. [maurits]
@@ -199,7 +199,7 @@ Changelog
 * tune css [gyst]
 * restrict activitystream viewlet to activitystream view, and update doc [gyst]
 * backport manageportlets link [gyst]
-* Revert "extracted standalone stream view to plonesocial.suite" [gyst]
+* Revert "extracted standalone stream view to ploneintranet.suite" [gyst]
 * sort on created not modified [gyst]
 * provide "compact" rendering option [gyst]
 * tune doc [gyst]
@@ -208,7 +208,7 @@ Changelog
 * prototype implementation of activitystream [gyst]
 * rename portletmanager viewlet [gyst]
 * provide activitystream portlet [gyst]
-* extracted standalone stream view to plonesocial.suite [gyst]
+* extracted standalone stream view to ploneintranet.suite [gyst]
 * wrap the portletmanager within the viewlet, register on SiteRoot only [gyst]
 * add portletmanager [gyst]
 * (empty) activity stream view for homepage [gyst]
