@@ -44,7 +44,7 @@ setup(
         'plone.app.portlets',
         'plone.tiles',
         'plone.portlets',
-        'ploneintranet.attachments',
+        'ploneintranet',
         'Products.CMFCore',
         'Products.CMFPlone >=4.2',
         'Products.GenericSetup',
