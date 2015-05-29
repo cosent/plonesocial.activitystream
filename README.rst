@@ -1,103 +1,31 @@
+Deprecated
+==========
 
+The plonesocial.* group of packages has become ploneintranet_.
 
-Introduction
-============
+Plone Intranet features a complete redesign and re-implementation of the
+front-end user interface of plonesocial. The backend is largely unchanged
+but extended with new features: liking updates, personalized tagging.
 
-Plonesocial.activitystream is part of the `plonesocial suite`_.
-
-This package, plonesocial.activitystream, provides a building block for Plone integrators who want to create a custom social business solution in Plone.
-
-If you're an end-user looking for a pre-integrated solution, you should install `plonesocial.suite`_ instead.
-
-Credits
--------
+Work on the ploneintranet `code base`_ is sponsored by the
+`Plone Intranet Consortium`_, a group of companies dedicated to delivering
+the leading open source digital workplace platform, based on Plone.
+Have a look, you'll like it. It's 100% open source.
 
 |Cosent|_
 
-This package is maintained by Cosent_.
+Plonesocial and Plone Intranet are initiatives by Cosent_.
 
+This repository is maintained frozen for developers who have made forks
+for use in their own projects. If you're one of those developers and are
+interested in upgrading to Plone Intranet, please contact Cosent_.
+
+Please note that commits after August 2014 are part of the ploneintranet
+rewrite, before plonesocial.* got merged into ploneintranet.*.
+
+.. _ploneintranet: https://github.com/ploneintranet/ploneintranet
+.. _code base: https://github.com/ploneintranet/ploneintranet
+.. _Plone Intranet Consortium: http://ploneintranet.com
 .. _Cosent: http://cosent.nl
 .. |Cosent| image:: http://cosent.nl/images/logo-external.png 
                     :alt: Cosent
-
-
-plonesocial.activitystream
-==========================
-
-Plonesocial.activitystream uses the view ``@@stream`` view (provided by plonesocial.core) on the SiteRoot.
-
-If you have installed `plonesocial.network`_ as well, and hit ``@@stream/network`` it will show only updates of people you're following.
-
-A navigation bar is provided which detects the presence of `plonesocial.network`_, as well as local workspaces that provide a local microblog, and displays nagivation options suitable for the context.
-
-Plonesocial.activitystream also provides an "Activity Portal" view for the SiteRoot.
-The Activity Portal view renders a portletmanager viewlet in which you can add an "Activity Stream" portlet (and also a "Microblog" portlet if you installed `plonesocial.microblog`_.
-This may look like a complex construct but it provides integrators with easy customization flex points, and it provides content managers with maximal control over what is rendered where, and in which sequence. Moreover by using a portlet for rendering, content managers can set various rendering options.
-You can re-use the viewlet, or the portlet, as you see fit using ZCML overrides. YMMV.
-
-The core rendering component, which is used by all views, is the ``stream_provider`` content provider.
-Extracting the display logic to a separate content provider promotes re-use.
-``activitystream_provider`` fetches `plonesocial.microblog`_ updates, if microblog is installed.
-It merges those with content creations and plone.app.discussion replies fetched from ZCatalog.
-If `plonesocial.network`_ is installed, it will filter the activity stream by "following" subscription.
-
-To enable loose coupling, plonesocial.activitystream does not depend on `plonesocial.microblog`_ 
-or `plonesocial.network`_. Instead, it probes if those components are installed and available, or not.
-Depending on the availability of those other plonesocial components, plonesocial.activitystream
-adapts its behavior.
-
-Plonesocial.activitystream looks nicer if you also install `plonesocial.theme`_.
-
-Build status
-------------
-
-Unit tests
-~~~~~~~~~~
-
-.. image:: https://secure.travis-ci.org/cosent/plonesocial.activitystream.png
-    :target: http://travis-ci.org/cosent/plonesocial.activitystream
-.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Social%20Activitystream
-    :target: http://jenkins.ploneintranet.net/job/Plone%20Social%20Activitystream/
-
-Robot tests for Plone Social and Plone Intranet
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Social%20Suite
-   :target: http://jenkins.ploneintranet.net/job/Plone%20Social%20Suite%20Master/badge/
-
-.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Suite%20Master
-   :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Suite%20Master/badge/
-
-
-
-
-Roadmap
--------
-
-An extensive roadmap_ for the plonesocial suite is available on github.
-
-.. _plonesocial suite: https://github.com/cosent/plonesocial.suite
-.. _plonesocial.suite: https://github.com/cosent/plonesocial.suite
-.. _plonesocial.microblog: https://github.com/cosent/plonesocial.microblog
-.. _plonesocial.activitystream: https://github.com/cosent/plonesocial.activitystream
-.. _plonesocial.network: https://github.com/cosent/plonesocial.network
-.. _plonesocial.theme: https://github.com/cosent/plonesocial.theme
-.. _plonesocial.buildout: https://github.com/cosent/plonesocial.buildout
-.. _roadmap: https://github.com/cosent/plonesocial.suite/wiki
-
-Copyright (c) Plone Foundation
-------------------------------
-
-This package is Copyright (c) Plone Foundation.
-
-Any contribution to this package implies consent and intent to irrevocably transfer all 
-copyrights on the code you contribute, to the `Plone Foundation`_, 
-under the condition that the code remains under a `OSI-approved license`_.
-
-To contribute, you need to have signed a Plone Foundation `contributor agreement`_.
-If you're `listed on Github`_ as a member of the Plone organization, you already signed.
-
-.. _Plone Foundation: https://plone.org/foundation
-.. _OSI-approved license: http://opensource.org/licenses
-.. _contributor agreement: https://plone.org/foundation/contributors-agreement
-.. _listed on Github: https://github.com/orgs/plone/people
